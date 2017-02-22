@@ -10,17 +10,18 @@ import Foundation
 
 print("Hello, World!")
 
-var myTown = Town()
+var myTown = Town(region: "West", population: 10000, stopLights: 6)
+myTown.printTownDescription()
 let ts = myTown.townSize
 print(ts)
 
-myTown.changePopulation(amount: 10000000)
+myTown.changePopulation(amount: 100000)
 print("Size: \(myTown.townSize); population: \(myTown.population)")
 
 let fredTheZombie = Zombie()
 fredTheZombie.town = myTown
 fredTheZombie.terrorizeTown()
-fredTheZombie.town?.printTwonDescription()
+fredTheZombie.town?.printTownDescription()
 fredTheZombie.changeName(name: "Fred the Zombie", walksWithLimp: false)
 
 print("Victim pool: \(fredTheZombie.victimPool)")

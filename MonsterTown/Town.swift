@@ -9,13 +9,22 @@
 import Foundation
 
 struct Town {
-    let region = "South"
-    var population = 5422 {
+    let region: String
+    var population: Int {
         didSet(oldPopulation) {
             print("The population has changed to \(population) from \(oldPopulation).")
         }
     }
-    var numberOfStoplight = 4
+    var numberOfStoplight: Int
+    init(region: String, population: Int, stopLights: Int) {
+        self.region = region
+        self.population = population
+        numberOfStoplight = stopLights
+    }
+    
+    init(population: Int, stoplights: Int) {
+        self.init(population: population, stoplights: stoplights)
+    }
     
     enum Size {
         case Small
@@ -36,8 +45,8 @@ struct Town {
         }
     }
     
-    func printTwonDescription() {
-        print("Population: \(population); number of stoplights: \(numberOfStoplight)")
+    func printTownDescription() {
+        print("Population: \(population); number of stoplights: \(numberOfStoplight); region: \(region)")
     }
     
     mutating func changePopulation(amount: Int) {

@@ -17,6 +17,53 @@
             endingLineNumber = "16"
             landmarkName = "Zombie"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MonsterTown.Zombie.(isFallingApart in _EB437F6192F87802E394EE5999F3316E).getter : Swift.Bool"
+                  moduleName = "MonsterTown"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tylerperkins/Documents/BNR%20Swift/MonsterTown/MonsterTown/Zombie.swift"
+                  timestampString = "509394951.546275"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "11">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MonsterTown.Zombie.(isFallingApart in _EB437F6192F87802E394EE5999F3316E).setter : Swift.Bool"
+                  moduleName = "MonsterTown"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tylerperkins/Documents/BNR%20Swift/MonsterTown/MonsterTown/Zombie.swift"
+                  timestampString = "509394951.548029"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MonsterTown.Zombie.init () -&gt; MonsterTown.Zombie"
+                  moduleName = "MonsterTown"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tylerperkins/Documents/BNR%20Swift/MonsterTown/MonsterTown/Zombie.swift"
+                  timestampString = "509394951.549876"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
